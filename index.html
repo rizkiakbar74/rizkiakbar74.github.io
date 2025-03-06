@@ -8,13 +8,16 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
     <title>My Portofolio</title>
   </head>
   <body id="home">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow fixed-top" data-aos="fade-down" data-aos-anchor-placement="top-bottom" data-aos-delay="500">
       <div class="container">
         <a class="navbar-brand" href="#home">Muhammad Rizki Akbar</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,7 +36,7 @@
 
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
-      <img src="img/Foto M Rizki akbar.jpg" alt="Foto Muhammmad Rizki Akbar" width="200" class="rounded-circle img-thumbnail" />
+      <img src="img/Foto M Rizki akbar.jpg" alt="Foto Muhammmad Rizki Akbar" width="200" class="rounded-circle img-thumbnail" data-aos="zoom-in" data-aos-delay="800" />
       <h1 class="display-4">Muhammad Rizki Akbar</h1>
       <p class="lead">Karyawan Swasta</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -49,15 +52,15 @@
     <section id="about">
       <div class="container">
         <div class="row text-center mb-3">
-          <div class="col">
+          <div class="col" data-aos="fade-down">
             <h2>About Me</h2>
           </div>
         </div>
         <div class="row justify-content-center text-center">
-          <div class="col-md-4 mb-3">
+          <div class="col-md-4 mb-3" data-aos="fade-right" data-aos-delay="500">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam deleniti ut quis autem expedita qui animi, placeat assumenda nemo dicta?</p>
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-md-4 mb-3" data-aos="fade-left" data-aos-delay="250">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed soluta, nulla quas dolorem doloremque, ex totam minus tenetur nostrum veniam obcaecati aspernatur blanditiis pariatur quae.</p>
           </div>
         </div>
@@ -73,7 +76,7 @@
 
     <!-- Project -->
     <section id="projects">
-      <div class="containter">
+      <div class="containter" data-aos="fade-down">
         <div class="row text-center mb-3">
           <div class="col">
             <h2>My Projects</h2>
@@ -81,7 +84,7 @@
         </div>
         <div class="row justify-content-center ps-5 pe-5">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-up">
               <img src="img/projects/1.jpg" class="card-img-top img-thumbnail" alt="projects 1" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -89,7 +92,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-up" data-aos-delay="100">
               <img src="img/projects/2.jpg" class="card-img-top img-thumbnail" alt="projects 2" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -97,7 +100,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-up" data-aos-delay="200">
               <img src="img/projects/3.jpg" class="card-img-top img-thumbnail" alt="projects 3" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -105,7 +108,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-up" data-aos-delay="300">
               <img src="img/projects/4.jpg" class="card-img-top img-thumbnail" alt="projects 4" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -113,7 +116,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-up" data-aos-delay="400">
               <img src="img/projects/5.jpg" class="card-img-top img-thumbnail" alt="projects 5" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -135,7 +138,7 @@
     <!-- contact  -->
     <section id="contact">
       <div class="container">
-        <div class="row text-center mb-3">
+        <div class="row text-center mb-3" data-aos="zoom-in-up">
           <div class="col">
             <h2>Contact Me</h2>
           </div>
@@ -150,18 +153,18 @@
             <!-- form -->
             <form name="contact-form-website-rizkiakbar74">
               <div class="mb-3">
-                <label for="name" class="form-label">Nama Lengkap</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" />
+                <label for="name" class="form-label" data-aos="fade-right" data-aos-delay="100">Nama Lengkap</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" data-aos="fade-left" data-aos-delay="200" />
               </div>
               <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
+                <label for="email" class="form-label" data-aos="fade-right" data-aos-delay="300">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" name="email" data-aos="fade-left" data-aos-delay="400" />
               </div>
               <div class="mb-3">
-                <label for="pesan" class="form-label">pesan</label>
-                <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
+                <label for="pesan" class="form-label" data-aos="fade-right" data-aos-delay="500">pesan</label>
+                <textarea class="form-control" id="pesan" rows="3" name="pesan" data-aos="fade-left" data-aos-delay="600"></textarea>
               </div>
-              <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
+              <button type="submit" class="btn btn-primary btn-kirim" data-aos="zoom-in-up" data-aos-delay="600">Kirim</button>
               <!--  -->
               <button class="btn btn-primary btn-loading d-none" type="button" disabled>
                 <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
@@ -191,8 +194,14 @@
       </p>
     </footer>
     <!--  -->
+    <!-- Script AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- Script Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
+    <!-- Script Pesan -->
     <script>
       const scriptURL = "https://script.google.com/macros/s/AKfycbzCiyF4aArI9iS0TtLS86_U-FlTApv4K5UhtrIUIUZmhZkxOI7AU-jOPjYRdIpt1pPk3w/exec";
       const form = document.forms["contact-form-website-rizkiakbar74"];
